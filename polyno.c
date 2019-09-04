@@ -106,7 +106,7 @@ void add(){
 }
 
 void mul(){
-  node* temp1=pptr,*temp2,*temp3=rptr,*t;
+  node* temp1=pptr,*temp2=rptr,*temp3=rptr,*t;
   if(temp1==NULL || temp2==NULL){
     temp3->exp=0;
     temp3->coef=0;
